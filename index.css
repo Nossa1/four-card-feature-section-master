@@ -1,0 +1,77 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.myTitle{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+}
+.bolded{
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+.subTitle{
+  text-align: center;
+  font-weight: 200;
+  top: 20px;
+  position: relative;
+  font-size: 14px;
+  color: hsl(234, 12%, 34%);
+}
+.mainContainer{
+  
+  
+  display: flex;
+  justify-content: center;
+}
+.containers {
+  width: 300px;
+  height: 220px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.containerleft {
+ position: absolute;
+ top: 490px;
+box-shadow: 0px -2px hsl(34, 97%, 64%), 0 10px 20px rgb(212, 211, 211) ;
+  
+}
+.containerTop {
+  position: relative;
+  top: 170px;
+  right: 160px;
+  box-shadow: 0px -2px hsl(180, 62%, 55%), 0 10px 20px rgb(212, 211, 211) ;
+}
+.containerRight {
+  position: absolute;
+ top: 240px;
+ box-shadow: 0px -2px  hsl(0, 78%, 62%), 0 10px 20px rgb(212, 211, 211) ;
+}
+.containerBottom {
+  position: relative;
+  top: 170px;
+  left: 160px;
+  box-shadow: 0px -2px  hsl(212, 86%, 64%), 0 10px 20px rgb(212, 211, 211) ;
+}
+h3{
+  color: hsl(234, 12%, 34%);
+  position: relative;
+  left: 20px;
+}
+p{
+  color: hsl(234, 12%, 34%);
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+}
+.myIcon{
+  position: relative;
+  left: 210px;
+  top: 20px;
+}
